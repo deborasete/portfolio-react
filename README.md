@@ -1,46 +1,53 @@
-# Getting Started with Create React App
+# GitHub Projects
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A dynamic, responsive web application that fetches and displays GitHub repositories using the GitHub API. Built with React, Axios and Styled Components.
 
-## Available Scripts
+- You can visit the live site here: https://portfolio-react-ivory-phi.vercel.app/
 
-In the project directory, you can run:
+![image](https://github.com/user-attachments/assets/e84f241b-d065-4fd3-88a7-3b7c3bd352ef)
+ 
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Technologies Used
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **React** - For building user interfaces.
+- **TypeScript** - With static typing for better maintainability.
+- **Styled Components** - For writing CSS inside JavaScript, for a modular and component-based styling approach.
+- **Axios** - HTTP client for making requests to the GitHub API and handling responses.
+- **React Router** - For managing routing and navigation within the application.
+- **GitHub API** - Used to fetch public repositories dynamically.
+- **Responsive Design** - Ensures the application looks great on devices of all sizes using CSS Grid and Flexbox.
+- **Theme Switching** - Toggle between a light and dark theme to enhance user experience.
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Fetch GitHub projects dynamically using the GitHub API.
+- Theme Switcher, between light and dark themes for a personalized experience.
+- Display project details like title, description, and link to each project.
+- Fully responsive layout for desktop, tablet, and mobile.
+- Clean and modern design using React and Styled Components.
+- Easy navigation with React Router for project links.
+- Handle API requests efficiently with Axios.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To get the project running locally:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/deborasete/portfolio-react.git
 
-### `npm run eject`
+2. Install dependencies:
+   ```bash
+   npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+3. Start the project:
+   ```bash
+   npm start
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Developed by:  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- LinkedIn: [Debora Sete](https://www.linkedin.com/in/debora-sete/)
+- Email: [sete.debora@gmail.com](mailto:sete.debora@gmail.com)
